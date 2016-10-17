@@ -14,9 +14,22 @@ public class ex04_105021038 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner scn=new Scanner(System.in);
-int n=scn.nextInt();
-for(int i=0;i<n;i++){
-	for(int j=0;j>i;j--){
-	}
+System.out.println("請輸入一個正整數");
 
+int n=scn.nextInt();
+int m=n;
+System.out.println("請輸入一個字元");
+
+char ch1=scn.next().charAt(0);
+for(int i=1;i<=n;i++){
+	
+	for(int j=1;j<=m;j++){
+		
+		System.out.print(ch1);
+		
+	}
+m--;
+
+  System.out.println(); }
+}
 }
