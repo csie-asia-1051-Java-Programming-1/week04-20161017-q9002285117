@@ -6,14 +6,17 @@
     @@  
     @
  * Date: 2016/10/17
- * Author: 1050210XX 周永振老師
+ * Author: 105021038 傅琬鈞
  */
-
-public class ex04_1050210XX {
+import java.util.Scanner;
+public class ex04_105021038 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+Scanner scn=new Scanner(System.in);
+int n=scn.nextInt();
+for(int i=0;i<n;i++){
+	for(int j=0;j>i;j--){
 	}
 
 }
